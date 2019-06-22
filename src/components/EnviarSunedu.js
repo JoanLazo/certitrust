@@ -7,7 +7,7 @@ const EnviarSunedu = () => {
     <div className="row">
         <div className="col-12">
 
-        <table class="table">
+        <table class="table text-white">
   <thead>
     <tr>
       <th scope="col">#</th>
@@ -38,7 +38,7 @@ const EnviarSunedu = () => {
   </tbody>
 </table>
       
-<button className="btn btn-primary">Enviar a Sunedu</button>
+<button className="btn btn-success">Enviar a Sunedu</button>
 
 
 </div>

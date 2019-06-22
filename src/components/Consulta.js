@@ -9,6 +9,7 @@ const Consulta = () => {
   <div className="row">
       <div className="col-12">
 
+        <h1 className="text-black mb-2">Carreras</h1>
       <div className="jumbotron jumbotron-fluid">
         <div className="container">
             <h1 className="display-4">Derecho</h1>
@@ -35,8 +36,8 @@ const Consulta = () => {
 </div>
 
         <div className="jumbotron jumbotron-fluid">
-        <div className="container">
-            <h1 className="display-4">Cincias de la Computación</h1>
+        <div className="container"> 
+            <h1 className="display-4">Ciencias de la Computación</h1>
             
             <Link class="btn btn-primary" to="/promociones">Entrar</Link>
         </div>

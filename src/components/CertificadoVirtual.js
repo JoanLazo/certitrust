@@ -37,10 +37,10 @@ const CertificadoVirtual = () => {
 
         {/* <!-- Nav Item - Pages Collapse Menu --> */}
         <li class="nav-item active">
-            <a class="nav-link" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+           
             <i class="fas fa-fw fa-cog"></i>
             <span>Components</span>
-            </a>
+            
             <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">Custom Components:</h6>
@@ -52,10 +52,10 @@ const CertificadoVirtual = () => {
 
         {/* <!-- Nav Item - Utilities Collapse Menu --> */}
         <li class="nav-item">
-            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
+           
             <i class="fas fa-fw fa-wrench"></i>
             <span>Utilities</span>
-            </a>
+            
             <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">Custom Utilities:</h6>
@@ -77,10 +77,10 @@ const CertificadoVirtual = () => {
 
         {/* <!-- Nav Item - Pages Collapse Menu --> */}
         <li class="nav-item">
-            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
+           
             <i class="fas fa-fw fa-folder"></i>
             <span>Pages</span>
-            </a>
+        
             <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">Login Screens:</h6>
@@ -97,16 +97,16 @@ const CertificadoVirtual = () => {
 
         {/* <!-- Nav Item - Charts --> */}
         <li class="nav-item">
-            <a class="nav-link" href="charts.html">
+           
             <i class="fas fa-fw fa-chart-area"></i>
-            <span>Charts</span></a>
+            <span>Charts</span>
         </li>
 
         {/* <!-- Nav Item - Tables --> */}
         <li class="nav-item">
-            <a class="nav-link" href="tables.html">
+         
             <i class="fas fa-fw fa-table"></i>
-            <span>Tables</span></a>
+            <span>Tables</span>
         </li>
 
         {/* <!-- Divider --> */}
@@ -181,7 +181,7 @@ const CertificadoVirtual = () => {
                     <h6 class="dropdown-header">
                     Alerts Center
                     </h6>
-                    <a class="dropdown-item d-flex align-items-center" href="#">
+                   
                     <div class="mr-3">
                         <div class="icon-circle bg-primary">
                         <i class="fas fa-file-alt text-white"></i>
@@ -191,7 +191,7 @@ const CertificadoVirtual = () => {
                         <div class="small text-gray-500">December 12, 2019</div>
                         <span class="font-weight-bold">A new monthly report is ready to download!</span>
                     </div>
-                    </a>
+                    
                     <a class="dropdown-item d-flex align-items-center" href="#">
                     <div class="mr-3">
                         <div class="icon-circle bg-success">
@@ -203,7 +203,7 @@ const CertificadoVirtual = () => {
                         $290.29 has been deposited into your account!
                     </div>
                     </a>
-                    <a class="dropdown-item d-flex align-items-center" href="#">
+                   
                     <div class="mr-3">
                         <div class="icon-circle bg-warning">
                         <i class="fas fa-exclamation-triangle text-white"></i>
@@ -213,7 +213,7 @@ const CertificadoVirtual = () => {
                         <div class="small text-gray-500">December 2, 2019</div>
                         Spending Alert: We've noticed unusually high spending for your account.
                     </div>
-                    </a>
+                    
                     <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
                 </div>
                 </li>
