@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/certitrust/static/css/main.2cce8147.chunk.css",
-    "main.js": "/certitrust/static/js/main.53ba8755.chunk.js",
-    "main.js.map": "/certitrust/static/js/main.53ba8755.chunk.js.map",
+    "main.js": "/certitrust/static/js/main.532276f1.chunk.js",
+    "main.js.map": "/certitrust/static/js/main.532276f1.chunk.js.map",
     "runtime~main.js": "/certitrust/static/js/runtime~main.969c45cf.js",
     "runtime~main.js.map": "/certitrust/static/js/runtime~main.969c45cf.js.map",
     "static/js/2.afa3210f.chunk.js": "/certitrust/static/js/2.afa3210f.chunk.js",
     "static/js/2.afa3210f.chunk.js.map": "/certitrust/static/js/2.afa3210f.chunk.js.map",
     "index.html": "/certitrust/index.html",
-    "precache-manifest.d610cc2b951a653904fa6344c2408e42.js": "/certitrust/precache-manifest.d610cc2b951a653904fa6344c2408e42.js",
+    "precache-manifest.ba6fda580a860590104ea951383619bb.js": "/certitrust/precache-manifest.ba6fda580a860590104ea951383619bb.js",
     "service-worker.js": "/certitrust/service-worker.js",
     "static/css/main.2cce8147.chunk.css.map": "/certitrust/static/css/main.2cce8147.chunk.css.map"
   }
