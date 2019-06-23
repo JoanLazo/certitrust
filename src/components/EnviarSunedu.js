@@ -20,19 +20,19 @@ const EnviarSunedu = () => {
     <tr>
       <th scope="row">1</th>
       <td>Betsy Campos</td>
-      <td>Kiara Ramos</td>
-      <td>José Palacios</td>
+      <td>Derecho</td>
+      <td>Todos los cursos aprobados</td>
     </tr>
     <tr>
       <th scope="row">2</th>
+      <td>Kiara Ramos</td>
       <td>Derecho</td>
-      <td>Derecho</td>
-      <td>Derecho</td>
+      <td>Todos los cursos aprobados</td>
     </tr>
     <tr>
       <th scope="row">3</th>
-      <td>Todos los cursos aprobados</td>
-      <td>Todos los cursos aprobados</td>
+      <td>José Palacios</td>
+      <td>Derecho</td>
       <td>Todos los cursos aprobados</td>
     </tr>
   </tbody>

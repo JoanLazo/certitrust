@@ -80,10 +80,10 @@ const ListaCertificado = () => {
 
             {/* <!-- Nav Item - Pages Collapse Menu --> */}
             <li class="nav-item">
-                
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
                 <i class="fas fa-fw fa-folder"></i>
                 <span>Pages</span>
-            
+                </a>
                 <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
                     <h6 class="collapse-header">Login Screens:</h6>
@@ -170,17 +170,17 @@ const ListaCertificado = () => {
 
                     {/* <!-- Nav Item - Alerts --> */}
                     <li class="nav-item dropdown no-arrow mx-1">
-                   
+                    <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <i class="fas fa-bell fa-fw"></i>
                         {/* <!-- Counter - Alerts --> */}
                         <span class="badge badge-danger badge-counter">3+</span>
-                    
+                        </a>
                     {/* <!-- Dropdown - Alerts --> */}
                     <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
                         <h6 class="dropdown-header">
                         Alerts Center
                         </h6>
-                       
+                        <a class="dropdown-item d-flex align-items-center" href="#">
                         <div class="mr-3">
                             <div class="icon-circle bg-primary">
                             <i class="fas fa-file-alt text-white"></i>
@@ -190,7 +190,8 @@ const ListaCertificado = () => {
                             <div class="small text-gray-500">December 12, 2019</div>
                             <span class="font-weight-bold">A new monthly report is ready to download!</span>
                         </div>
-                       
+                        </a>
+                        <a class="dropdown-item d-flex align-items-center" href="#">
                        
                         <div class="mr-3">
                             <div class="icon-circle bg-success">
@@ -201,8 +202,8 @@ const ListaCertificado = () => {
                             <div class="small text-gray-500">December 7, 2019</div>
                             $290.29 has been deposited into your account!
                         </div>
-                       
-                        
+                        </a>
+                        <a class="dropdown-item d-flex align-items-center" href="#"> 
                         <div class="mr-3">
                             <div class="icon-circle bg-warning">
                             <i class="fas fa-exclamation-triangle text-white"></i>
@@ -212,7 +213,7 @@ const ListaCertificado = () => {
                             <div class="small text-gray-500">December 2, 2019</div>
                             Spending Alert: We've noticed unusually high spending for your account.
                         </div>
-                       
+                        </a>
                         <a class="dropdown-item text-center small text-gray-500" >Show All Alerts</a>
                     </div>
                     </li>
@@ -367,7 +368,7 @@ const ListaCertificado = () => {
                                 </div>
                                 <div class="col">
                                 <div class="progress progress-sm mr-2">
-                                    <div class="progress-bar bg-info" role="progressbar" style={{width: '50%'}} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="progress-bar bg-info" role="progressbar" style={{width: '80%'}} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 </div>
                             </div>
@@ -379,24 +380,31 @@ const ListaCertificado = () => {
                         </div>
                     </div>
                     </div>
-
-                    {/* <!-- Pending Requests Card Example --> */}
-                    <div class="col-xl-3 col-md-6 mb-4">
-                    <div class="card border-left-warning shadow h-100 py-2">
+ {/* <!-- Earnings (Monthly) Card Example --> */}
+ <div class="col-xl-3 col-md-6 mb-4">
+                    <div class="card border-left-danger shadow h-100 py-2">
                         <div class="card-body">
                         <div class="row no-gutters align-items-center">
                             <div class="col mr-2">
-                            <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Certificados pendientes</div>
-                            <div class="h5 mb-0 font-weight-bold text-gray-800">20%</div>
+                            <div class="text-xs font-weight-bold text-danger text-uppercase mb-1">Certificados pendientes</div>
+                            <div class="row no-gutters align-items-center">
+                                <div class="col-auto">
+                                <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">20%</div>
+                                </div>
+                                <div class="col">
+                                <div class="progress progress-sm mr-2">
+                                    <div class="progress-bar bg-danger" role="progressbar" style={{width: '20%'}} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                </div>
+                            </div>
                             </div>
                             <div class="col-auto">
-                            <i class="fas fa-comments fa-2x text-gray-300"></i>
+                            <i class="fas fa-clipboard-list fa-2x text-gray-300"></i>
                             </div>
                         </div>
                         </div>
                     </div>
                     </div>
-                </div>
 
                 {/* <!-- Content Row --> */}
 
@@ -411,7 +419,7 @@ const ListaCertificado = () => {
                 <div class="row">
 
                     {/* <!-- Content Column --> */}
-                    <div class="col-lg-8 mb-4 ml-3">
+                    <div class="col-lg-12 col-sm-5 mb-4 ml-3">
 
                    <Consulta />
 
@@ -471,9 +479,8 @@ const ListaCertificado = () => {
             </div>
             </div>
             </div>
-
             </div>
-        
+            </div>
     )
 }
 
