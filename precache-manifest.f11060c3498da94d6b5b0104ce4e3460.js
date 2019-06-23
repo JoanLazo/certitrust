@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2b0942352d9fe5ec0a7f0e38ffe794aa",
+    "revision": "3c5a769a63f9d8d2e704a9cc4dbb5b89",
     "url": "/certitrust/index.html"
   },
   {
-    "revision": "e924eeca224351f5cbc1",
+    "revision": "83ff7940b1f51217479a",
     "url": "/certitrust/static/css/main.62e38a44.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/certitrust/static/js/2.afa3210f.chunk.js"
   },
   {
-    "revision": "e924eeca224351f5cbc1",
-    "url": "/certitrust/static/js/main.acd16a4c.chunk.js"
+    "revision": "83ff7940b1f51217479a",
+    "url": "/certitrust/static/js/main.ea84f562.chunk.js"
   },
   {
     "revision": "870e25ef9d73a2781ee0",
