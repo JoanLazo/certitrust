@@ -27,7 +27,7 @@ const Router = () => (
         <Route path="/formulario" component={Formulario} />
         <Route path="/consulta" component={Consulta} />
         <Route path="/lista-de-certificados" component={ListaCertificado} />
-        <Route path="/certificados-virtuales" component={CertificadoVirtual} />
+        <Route path="/certificado-virtual-20190622-101024" component={CertificadoVirtual} />
         <Route path="/tables" component={Tables} />
         <Route path="/Cards" component={Cards} />
         <Route path="/lista-de-carreras" component={Carreras} />
